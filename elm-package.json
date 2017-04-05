@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "summary": "AWS Simple Notification Service Effect Manager for Elm.",
+    "repository": "https://github.com/elm-node/aws-sns.git",
+    "license": "Unlicense",
+    "source-directories": [
+        "src",
+        "test"
+    ],
+    "exposed-modules": [
+        "Aws.Sns",
+        "Aws.Sns.LowLevel"
+    ],
+    "native-modules": true,
+    "dependencies": {
+        "elm-lang/core": "5.1.1 <= v < 6.0.0"
+    },
+    "elm-version": "0.18.0 <= v < 0.19.0"
+}

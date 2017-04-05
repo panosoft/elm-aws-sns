@@ -1,0 +1,25 @@
+{
+    "name": "aws-sns",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "aws-sdk": "^2.38.0",
+        "google-libphonenumber": "^2.0.14"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "build:test": "elm-make test/Main.elm --output test/main.js",
+        "test": "npm run build:test && node test/index.js $1 $2 $3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elm-node/aws-sns.git"
+    },
+    "author": "Alexandre Gigliotti <alex@panosoft.com>",
+    "license": "Unlicense",
+    "bugs": {
+        "url": "https://github.com/elm-node/aws-sns/issues"
+    },
+    "homepage": "https://github.com/elm-node/aws-sns#readme"
+}
