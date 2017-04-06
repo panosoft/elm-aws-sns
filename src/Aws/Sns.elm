@@ -1,4 +1,9 @@
-module Aws.Sns exposing (config, sendPromotionalSms, sendTransactionalSms)
+module Aws.Sns
+    exposing
+        ( config
+        , sendPromotionalSms
+        , sendTransactionalSms
+        )
 
 {-| AWS Simple Notification Service makes it simple to send notifications to devices.
 

@@ -1,4 +1,9 @@
-module Aws.Sns.LowLevel exposing (Config, SmsType(..), sendSms)
+module Aws.Sns.LowLevel
+    exposing
+        ( Config
+        , SmsType(..)
+        , sendSms
+        )
 
 {-| Low-level bindings to the [AWS Simple Notification Service](http://docs.aws.amazon.com/sns/latest/dg/welcome.html) client for javascript.
 
@@ -46,7 +51,7 @@ This is useful in cases where you would like to chain tasks together and then pr
 ```
 type Msg = SendComplete (Result String String)
 
-config = Sns.config
+config = Config
     "ACCESS_KEY_ID"
     "SECRET_ACCESS_KEY"
     "AWS_REGION"

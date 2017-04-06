@@ -36,6 +36,7 @@ var _elm_node$aws_sns$Native_Sns = function() {
                         "AWS.SNS.SMS.SMSType": { DataType: "String", StringValue: smsType.ctor }
                     }
                 }
+                // TODO remove test code
                 // console.log(params.PhoneNumber, params.MessageAttributes["AWS.SNS.SMS.SMSType"].StringValue)
                 sns.publish(params, (error, data) => {
                     if (error) callback(Scheduler.fail(error.message))

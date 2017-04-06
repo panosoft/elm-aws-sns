@@ -21,6 +21,11 @@ type alias Model =
     {}
 
 
+model : Model
+model =
+    {}
+
+
 type Msg
     = SendComplete (Result String String)
 
@@ -37,7 +42,7 @@ init flags =
         message =
             "Hello from elm-node/aws-sns"
     in
-        {}
+        model
             ! [ Sns.sendTransactionalSms config destination message SendComplete
               , Sns.sendPromotionalSms config destination message SendComplete
               , LowLevel.sendSms LowLevel.Promotional config destination message
