@@ -1,4 +1,4 @@
-var _elm_node$aws_sns$Native_Sns = function() {
+var _panosoft$elm_aws_sns$Native_Sns = function() {
     const Sns = require('aws-sdk/clients/sns')
     const { PhoneNumberUtil, PhoneNumberFormat } = require('google-libphonenumber')
     const Scheduler = _elm_lang$core$Native_Scheduler;
