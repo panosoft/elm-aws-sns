@@ -5,8 +5,10 @@
 
 # Install
 
+You'll need [Grove](https://github.com/panosoft/elm-grove.git).
+
 ```
-npm install elm-node/aws-sns
+grove install elm-node/aws-sns
 ```
 
 
