@@ -4,15 +4,12 @@
     "description": "Native bindings for Amazon's Simple Notification Service.",
     "repository": "panosoft/elm-aws-sns",
     "dependencies": {
-        "@elm-node/npm-scripts": "^1.0.0",
         "aws-sdk": "^2.38.0",
         "google-libphonenumber": "^2.0.14"
     },
     "devDependencies": {},
     "scripts": {
         "build:test": "elm-make test/Main.elm --output test/main.js",
-        "postinstall": "elm-npm-postinstall",
-        "preuninstall": "elm-npm-preuninstall",
         "test": "npm run build:test && node test/index.js $1 $2 $3"
     },
     "author": "Alexandre Gigliotti <alex@panosoft.com>",
