@@ -1,6 +1,6 @@
 {
     "name": "@panosoft/elm-aws-sns",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Native bindings for Amazon's Simple Notification Service.",
     "repository": "panosoft/elm-aws-sns",
     "dependencies": {

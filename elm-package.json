@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Native bindings for Amazon's Simple Notification Service.",
     "repository": "https://github.com/panosoft/elm-aws-sns.git",
     "license": "Unlicense",
